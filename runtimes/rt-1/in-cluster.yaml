@@ -15,7 +15,7 @@ spec:
   source:
     directory:
       include: >-
-        {all-runtimes-all-clusters/**/*.yaml,all-runtimes-all-clusters/*.yaml,configurations/**/*.yaml,control-planes/**/*.yaml,control-planes/*.yaml,rt-1/rt2-gs.yaml,runtimes/rt-1/**/*.yaml,runtimes/rt-1/*.yaml}
+        {all-runtimes-all-clusters/**/*.yaml,all-runtimes-all-clusters/*.yaml,configurations/**/*.yaml,control-planes/**/*.yaml,control-planes/*.yaml,runtimes/rt-1/**/*.yaml,runtimes/rt-1/*.yaml}
       recurse: true
     path: resources
     repoURL: https://github.com/atgardner/atgardner-isc.git
